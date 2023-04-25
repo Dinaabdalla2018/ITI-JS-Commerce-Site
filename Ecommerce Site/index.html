@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/icon.png" rel="icon">
+    <title>Shopping</title>
+</head>
+
+<body>
+   
+    <!--Cart-->
+    <div class="bg_cart w-100 vh-90 position-absolute z-2">
+        <div id="shopping_cart">
+            <button type="button" class="btn-close"></button>
+         <h4 class="py-2 my-2 fw-bolder">My Cart</h4>
+         <table class="table table-info table-striped  table-hover">
+            <thead>
+                <tr>
+                    <th class="table-info" scope="col">Product</td>
+                    <th class="table-info" scope="col">Category</td>
+                    <th class="table-info" scope="col">Quantity</th>
+                    <th class="table-info" scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            </table>
+
+        </div>
+        
+    </div>
+    
+   
+    <!--Nav-->
+    <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><i class="fa-solid fa-shopping-bag"></i>&nbsp;Shopping</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav ms-auto  ">
+                    <li class="nav-item active">
+                        <a class="nav-link text-black fw-bolder" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="View_Cart" class="nav-link border-0"><i class="fa-solid fa-cart-shopping fa-sm" style="color: #1f2551;"></i></button>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!--Slider-->
+    <div class="">
+        <div id="Slider" class="1">
+            <div id="single-slider" style="background-image: url(img/Slider/1.jpg)"
+                class=" slider-bg2 hero-overly slider-height d-flex align-items-center position-relative">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8 col-lg-9 ">
+                            <!-- Hero Caption -->
+                            <div
+                                class="bg-black opacity-50 position-absolute start-0 top-0 h-100 w-100 d-flex justify-content-center align-items-center hero__caption">
+                                <h1>GET START<br>YOUR FAVORITE SHOPPING</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+    <!--Category-->
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div id="Cloth" class="d-flex align-items-center mb-4" style="padding: 15px;">
+                    <h1 class="fa fa-shirt text-primary me-3"></h1>
+                    <h5 class="font-weight-semi-bold ms-3">Clothes</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div id="Shoes" class="d-flex align-items-center mb-4 " style="padding: 15px;">
+                    <h1 class="fa fa-shoe-prints text-muted  me-3"></h1>
+                    <h5 class="font-weight-semi-bold  ms-3">Shoes</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div id="Jewelry" class="d-flex align-items-center mb-4" style="padding: 15px;">
+                    <h1 class="fas fa-gem me-3" style="color:gold;"> </h1>
+                    <h5 class="font-weight-semi-bold ms-3">Jewelry</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1 ">
+                <div id="Accessory" class="d-flex align-items-center mb-4" style="padding: 15px;">
+                    <h1 class="fa-solid fa-heart me-3" style="color:crimson;"></h1>
+                    <h5 class="font-weight-semi-bold ms-3">Accessories</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Cart-->
+    <!--Products-->
+    <div class="container-fluid pt-5 pb-3">
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class=" pr-3">Products</span></h2>
+        <div id="product" class="row px-xl-5">
+            
+        </div>
+    </div>
+    <!--Features-->
+    <!-- Featured Start -->
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
+                    <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer Start -->
+    <div class="container-fluid pt-5 pb-3">
+        <div class="row px-xl-5">
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="img/offer/offer-1.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Save 20%</h6>
+                        <h3 class="text-white mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="img/offer/offer-2.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Save 20%</h6>
+                        <h3 class="text-white mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer End -->
+
+    <div class="contact_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="contact_taital">Get In Touch</h1>
+                    <p class="contact_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation eu </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact_main">
+                        <div class="contact_bt"><a href="#">Contact Form</a></div>
+                        <div class="newletter_bt"><a href="#">Newletter</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map_main">
+            <div class="map-responsive">
+                <iframe class="w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.8054032296727!2d31.018882214929338!3d30.07111198187265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b979b7d1dd9%3A0x88f29d027c44f959!2sInformation%20Technology%20Institute!5e0!3m2!1sen!2seg!4v1681138333428!5m2!1sen!2seg"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- contact section end -->
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+        <div class="container">
+            <div class="footer_logo">
+                <h3>SHOPPING</h3>
+            </div>
+            <div class="contact_section_2">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3 class="address_text">Contact Us</h3>
+                        <div class="address_bt">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span
+                                            class="padding_left10">Address : Loram Ipusm</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call
+                                            : +01 1234567890</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i><span
+                                            class="padding_left10">Email : demo@gmail.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer_logo_1">
+                            <h3 class="address_text">Shopping</h3>
+                        </div>
+                        <p class="dummy_text">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="main">
+                            <h3 class="address_text">Best Products</h3>
+                            <p class="ipsum_text">dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social_icon">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="arrow_up">
+                <a href="#top"><i class="fa-solid fa-arrow-up fa-bounce fa-2xl" style="color: #edeff2;"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/Category.js"></script>
+</body>
+
+</html>

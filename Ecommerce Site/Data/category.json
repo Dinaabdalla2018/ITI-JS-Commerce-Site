@@ -1,0 +1,209 @@
+[{
+        "categoryId": 1,
+        "id": 1,
+        "title": "suit (man)",
+        "src": "img/category/Clothes/arrival1.png",
+        "price":"122.0",
+        "stars": "4"
+    },
+    {
+        "categoryId": 1,
+        "id": 2,
+        "title": "shawl",
+        "src": "img/category/Clothes/arrival2.png",
+        "price":"200.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 1,
+        "id": 3,
+        "title": "shirt (man)",
+        "src": "img/category/Clothes/arrival3.png",
+        "price":"400.0",
+        "stars": "3"
+    },
+    {
+        "categoryId": 1,
+        "id": 4,
+        "title": "shirt (man)",
+        "src": "img/category/Clothes/arrival4.png",
+        "price":"900.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 1,
+        "id": 5,
+        "title": "T-shirt (man)",
+        "src": "img/category/Clothes/arrival5.png",
+        "price":"12.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 1,
+        "id": 6,
+        "title": "pullover  (man)",
+        "src": "img/category/Clothes/product-2.jpg",
+        "price":"30.0",
+        "stars": "3"
+    },
+    {
+        "categoryId": 1,
+        "id": 7,
+        "title": "pullover (man)",
+        "src": "img/category/Clothes/gallery4.png",
+        "price":"122.0",
+        "stars": "4"
+    },
+    {
+        "categoryId": 1,
+        "id": 8,
+        "title": "shirt (woman)",
+        "src": "img/category/Clothes/product-7.jpg",
+        "price":"982.0",
+        "stars": "2"
+    },
+    {
+        "categoryId": 2,
+        "id": 1,
+        "title": "Shoes 1",
+        "src": "img/category/Shoes/shoes1.jpg",
+        "price":"208.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 2,
+        "id": 2,
+        "title": "Shoes 2",
+        "src": "img/category/Shoes/shoes2.jpg",
+        "price":"60.0",
+        "stars": "3"
+    },
+    {
+        "categoryId": 2,
+        "id": 3,
+        "title": "Shoes 3",
+        "src": "img/category/Shoes/shoes3.jpg",
+        "price":"80.0",
+        "stars": "4"
+    },
+    {
+        "categoryId": 2,
+        "id": 4,
+        "title": "Shoes 4",
+        "src": "img/category/Shoes/shoes4.jpg",
+        "price":"122.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 2,
+        "id": 5,
+        "title": "Shoes 5",
+        "src": "img/category/Shoes/shoes5.jpg",
+        "price":"124.0",
+        "stars": "3"
+    },
+    {
+        "categoryId": 2,
+        "id": 6,
+        "title": "Shoes 6",
+        "src": "img/category/Shoes/shoes6.png",
+        "price":"2134.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 3,
+        "id": 1,
+        "title": "jewelry 1",
+        "src": "img/category/Jewelry/jewelry1.jpg",
+        "price":"2900.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 3,
+        "id": 2,
+        "title": "jewelry 2",
+        "src": "img/category/Jewelry/jewelry2.jpg",
+        "price":"9800.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 3,
+        "id": 3,
+        "title": "jewelry 3",
+        "src": "img/category/Jewelry/jewelry3.jpg",
+        "price":"8970.0",
+        "stars": "4"
+    },
+    {
+        "categoryId": 3,
+        "id": 4,
+        "title": "jewelry 4",
+        "src": "img/category/Jewelry/jewelry4.png",
+        "price":"5490.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 3,
+        "id": 5,
+        "title": "jewelry 5",
+        "src": "img/category/Jewelry/jewelry5.png",
+        "stars": "5"
+    },
+    {
+        "categoryId": 3,
+        "id": 6,
+        "title": "jewelry 6",
+        "src": "img/category/Jewelry/jewelry6.png",
+        "price":"09922.0",
+        "stars": "3"
+    },
+    {
+        "categoryId": 4,
+        "id": 1,
+        "title": "Watch (man)",
+        "src": "img/category/Accessories/product1.jpg",
+        "price":"122.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 4,
+        "id": 2,
+        "title": "Glasses 1",
+        "src": "img/category/Accessories/product2.png",
+        "price":"800.0",
+        "stars": "4"
+    },
+    {
+        "categoryId": 4,
+        "id": 3,
+        "title": "Glasses 2",
+        "src": "img/category/Accessories/product3.png",
+        "price":"600.0",
+        "stars": "5"
+    },
+    {
+        "categoryId": 4,
+        "id": 4,
+        "title": "Watch(man)",
+        "src": "img/category/Accessories/product4.png",
+        "price":"400.0",
+        "stars": "3"
+    },
+    {
+        "categoryId": 4,
+        "id": 5,
+        "title": "Watch (woman)",
+        "src": "img/category/Accessories/product5.png",
+        "price":"90.40",
+        "stars": "3"
+    },
+    {
+        "categoryId": 4,
+        "id": 6,
+        "title": "Glasses 3",
+        "src": "img/category/Accessories/product6.png",
+        "price":"239.04",
+        "stars": "4"
+    }
+    
+]
