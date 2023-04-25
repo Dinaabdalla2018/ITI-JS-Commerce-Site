@@ -19,7 +19,6 @@
    - Footer Section
 
 # Snapshot
-[3c3f8.png](https://im.ezgif.com/tmp/ezgif-1-15f1e032d7.gif)
 <picture>
-   <img alt="Demo" src="[3c3f8.png](https://im.ezgif.com/tmp/ezgif-1-15f1e032d7.gif)">
+   <img alt="Demo" src="https://github.com/Dinaabdalla2018/ITI-JS-Commerce-Site/blob/main/Ecommerce%20Site/screenshot.gif">
 </picture>
